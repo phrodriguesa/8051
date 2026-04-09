@@ -19,7 +19,7 @@ DELAY:
     MOV R2,#5        ; Contador externo (repete tudo 5 vezes)
 
 DL2:
-    MOV R1,#200      ; Contador intermediário (200 repetições)
+    MOV R1,#199; Contador intermediário (200 repetições)
 
 DL1:
     MOV R0,#249      ; Contador interno (249 repetições)
