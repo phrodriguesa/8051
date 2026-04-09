@@ -1,4 +1,4 @@
-ORG 0000H            ; Endereço inicial (reset do 8051)
+ORG 0000H            
 
 main:
     CLR P1.0         ; Coloca o pino P1.0 em nível baixo (LED desligado)
